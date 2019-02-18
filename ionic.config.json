@@ -1,0 +1,8 @@
+{
+  "name": "BaseFramework",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "16ed927f"
+}

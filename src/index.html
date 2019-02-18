@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Ionic App</title>
+
+  <base href="/" />
+
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+
+  <link rel="icon" type="image/png" href="assets/icon/favicon.png" />
+
+  <!-- add to homescreen for ios -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <script type="text/javascript" src="assets/js/AMap.Geocoder.js"></script>
+  <script src="assets/js/jmessage-sdk-web.2.6.0.min.js"></script>
+  <script src="assets/js/map.js"></script>
+  <script src="assets/js/amapui.js"></script>
+  <!--图片合成-->
+  <script src="assets/js/canvas2image.js"></script>
+  <script src="assets/js/html2canvas.min.js"></script>
+
+  <script type="text/javascript" src="assets/js/jquery-2.0.3.min.js"></script>
+  <script type="text/javascript" src="assets/js/jpush.js"></script>
+  <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+
+  <!--js生成二维码插件-->
+  <script src="assets/js/qrcode.min.js"></script>
+  <script type="text/javascript">
+    var ip={
+      getIp:function () {
+        return returnCitySN.cip;
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <app-root></app-root>
+</body>
+
+</html>
